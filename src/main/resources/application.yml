@@ -12,3 +12,12 @@ spring:
     hibernate:
       ddl-auto: validate
     show-sql: true # for testing only
+
+
+
+
+  redis:
+      host: #localhost
+        port: # 6379
+         password: # yourpassword
+          timeout: # 2000
